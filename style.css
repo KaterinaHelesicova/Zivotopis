@@ -1,0 +1,50 @@
+#fff1e6
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body
+    {font-size: 20px;
+    font-family: sans-serif;}
+h1
+    {font-size: 60px;
+    font-family:serif;
+    text-align: center;
+    color: brown;}
+h2
+    {font-size:30px;
+    font-family: serif;
+    text-align: center;
+    color:brown;}
+a
+    {color:#a68a7d;
+    font-style:italic;}
+
+header
+    {background-color: bisque;}
+
+section
+    {background-color: olive;}
+
+.omne,
+.zkusenosti,
+.dovednosti
+        {background-color: burlywood;}
+
+a:hover {color:rgb(175, 92, 92)
+        }
+a:focus {color:rgb(170, 199, 170)
+        }
+a:visited {color:rgb(124, 95, 124)
+        }
+a:active {color:rgb(223, 223, 148)
+        }
+
+section{
+         padding: 50px 15%;
+        }
