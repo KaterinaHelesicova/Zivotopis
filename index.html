@@ -9,94 +9,116 @@
     <script src="https://kit.fontawesome.com/93dafcc66d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-       <!--<img src="Foto/Já.jpg" alt="foto Kateřiny">--> 
-       <div class="bg-image"></div>
-
-        <div class="bg-text">
+    <header class="hlavicka">
+       
+       
          <h1>Kateřina Helešicová</h1>
-        <p>a její životopis</p>
-        </div>
+        
+
+   
     </header>
-    <section class="omne">
-        <h2>O mně</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Integer imperdiet lectus quis justo. Nulla est. Vivamus luctus egestas leo. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nulla est. Aenean placerat. Etiam bibendum elit eget erat. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Mauris dictum facilisis augue. Nullam sit amet magna in magna gravida vehicula. Curabitur bibendum justo non orci. Integer in sapien. Proin mattis lacinia justo. Nulla non arcu lacinia neque faucibus fringilla. In enim a arcu imperdiet malesuada. Phasellus et lorem id felis nonummy placerat. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Ještě něco dalšího.
+
+    <ul class="menu">
+        <li><a href="#omne">O mně</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#zkusenosti">Pracovní zkušenosti</a></li>
+        <li><a href="#vzdelani">Vzdělání</a></li>
+        <li><a href="#dovednosti">Dovednosti</a></li>
+
+    </ul>
+    <section class="omne" id="omne">
+        <h2>O MNĚ</h2>
+        <img class="foto-omne" src="Foto/Rejvíz.jpg" alt="foto Katka a Ester"> 
+        <p>Jmenuji se Katka, za několik dní oslavím 33. narozeniny a prvě stojíte na mé vlastní stránce. rozhodla jsem se zásadně změnit své pracovní zaměření. 
         </p>
+        <p>S manželem a tříletou dcerou žijeme nedaleko Svitav, v menší obci Radiměř. Od loňského roku trávíme každou volnou chvíli stavbou našeho domu. Právě ten fajn dům v zahradě u lesa byl jedním z rozhodujících důvodů, proč chci pracovat jinak - ve vlastní pracovně a s prací, co baví.
+        </p>
+        <p>Ráda běhám, nejraději trailové trasy v našich horách. Jedním z mých snů je běhat ultra dálky a účast na Dolomites Skyrace nebo Ultra Pirineu.  
+        </p>
+        <p>Jsou to dva roky, co jsem poprvé sama zkusila html a CSS. Na stole dvě učebnice a s nimi hodně prosezených večerů, s minimálním pokrokem. Díky za Czechitas, sama bych tohle těžko zvládla.
+
+        </p>
+        
     </section>
 
-    <section class="kontakt">
-        <h2>Kontakt</h2>
+    <section class="kontakt" id="kontakt">
+        <h2 class="kontaktvlevo">KONTAKT</h2>
         <table>
             <tr>
-                <td><i class="fa-solid fa-phone"></i></td>
+                <td class="ikony"><i class="fa-solid fa-phone"></i></td>
                 <td>722 804 674</td>
             </tr>
             <tr>
-                <td><i class="fa-solid fa-at"></i></td>
+                <td class="ikony"> <i class="fa-solid fa-at"></i></td>
                 <td><a href="mailto:helesic.katerina@gmail.com"> helesic.katerina@gmail.com</a></td>
             </tr>
             <tr>
-                <td><i class="fa-brands fa-linkedin"></i></td>
-                <td><a href="https://www.linkedin.com/in/kate%C5%99ina-h-82613ab8/"> Linked in</a></td>
+                <td class="ikony"><i class="fa-brands fa-linkedin"></i></td>
+                <td><a href="https://www.linkedin.com/in/kate%C5%99ina-h-82613ab8/" target="_blank"> Linked in</a></td>
             </tr>
             <tr>
-                <td><i class="fa-solid fa-house"></i></td>
-                <td>Radiměř, Svitavy</td>
+                <td class="ikony"><i class="fa-solid fa-house"></i></td>
+                <td><a href="https://www.google.com/maps/place/569+07+Radim%C4%9B%C5%99/@49.6978613,16.3480412,12z/data=!3m1!4b1!4m5!3m4!1s0x470d88584098ca3f:0xaacddd3d1c9f2b8!8m2!3d49.6994861!4d16.4312865" target="_blank">Radiměř</a></td>
             </tr>
         </table>
+        <img class="fotokontakt" src="Foto/Já.jpg" alt="foto Kateřiny"> 
     </section>
 
-    <section class="zkusenosti">
-        <h2>Pracovní zkušenosti</h2>
-        <tr>
+    <section class="zkusenosti" id="zkusenosti">
+        <h2>PRACOVNÍ ZKUŠENOSTI</h2>
+        <table class="prace">
+            <th>OBDOBÍ</th>
+            <th>ZAMĚSTNAVATEL</th>
+            <th>POZICE</th>
+        <tr> 
             <td>2021-dosud</td>
-            <td>A-styl atelier s.r.o.</td>
-            <td>provozní manažer, klientská péče (částečný úvazek)</td>
+            <td class="zamestnavatel">A-styl atelier s.r.o.</td>
+            <td class="pozice">provozní manažer, klientská péče (částečný úvazek)</td>
         </tr>
         <tr>
             <td>2021-dosud</td>
-            <td>Concept elektrospotřebiče</td>
-            <td>obchodní oddělení - český trh (částečný úvazek)</td>
+            <td class="zamestnavatel">Concept elektrospotřebiče</td>
+            <td class="pozice">obchodní oddělení - český trh (částečný úvazek)</td>
         </tr>
         <tr>
             <td>2018-2019</td>
-            <td>Concept elektrospotřebiče</td>
-            <td>obchodní oddělení - zahraniční trh</td>
+            <td class="zamestnavatel">Concept elektrospotřebiče</td>
+            <td class="pozice">obchodní oddělení - zahraniční trh</td>
         </tr>
         <tr>
             <td>2017-2018</td>
-            <td>Astur & Qanto s.r.o.</td>
-            <td>Činnost provozní ředitelky</td>
+            <td class="zamestnavatel">Astur & Qanto</td>
+            <td class="pozice">činnost provozní ředitelky</td>
         </tr>
         <tr>
             <td>2016-2017</td>
-            <td>PPG Industries</td>
-            <td>GL accountant - Fixed assets</td>
+            <td class="zamestnavatel">PPG Industries</td>
+            <td class="pozice">GL accountant - Fixed assets</td>
         </tr>
         <tr>
             <td>2009-2014</td>
-            <td>Rozhodčí společnost Pardubice s.r.o.</td>
-            <td>Vedoucí kanceláře mimosoudního vyrovnání sporů</td>
+            <td class="zamestnavatel">Rozhodčí společnost Pardubice </td>
+            <td class="pozice">vedoucí kanceláře mimosoudního vyrovnání sporů</td>
         </tr>
+    </table>
     </section>
 
-    <section class="vzdelani">
-        <h2>Vzdělání</h2>
+    <section class="vzdelani" id="vzdelani">
+        <h2>VZDĚLÁNÍ</h2>
         <ul>
+            <li>VŠEM Praha - podnikání a lidské zdroje (2013-2015, dálkové studium - nedokončeno)</li>
             <li>Obchodní akademie Choceň (2004-2008)</li>
             <li>Jednoleté pomaturitní studium AJ (2008-2009)</li>
-            <li>VŠEM Praha - podnikání a lidské zdroje (nedokončeno)</li>
         </ul>
     </section>
 
-    <section class="Dovednosti">
-        <h2>Dovednosti</h2>
+    <section class="Dovednosti" id="dovednosti">
+        <h2>DOVEDNOSTI</h2>
         <p>Oracle, MS Office, Access, Ariba, Cognos, Praetor</p>
     </section>
     
     <footer>
-        <p>© 2022, Kateřina Helešicová</p>  
-        <p>Toto je jen začátek</p>
+        <p class="paticka" >© 2022, Kateřina Helešicová</p>
     </footer>
 </body>
 </html>

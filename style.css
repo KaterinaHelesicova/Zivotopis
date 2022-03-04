@@ -10,17 +10,27 @@ html {
 }
 body
     {font-size: 20px;
-    font-family: sans-serif;}
+    font-family: sans-serif;
+    margin: 0%;
+}
 h1
-    {font-size: 60px;
+    {font-size: 80px;
     font-family:serif;
+    font-style: italic;
     text-align: center;
-    color: brown;}
+    color: rgb(252, 245, 232);
+    margin: 0%;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+
+}
 h2
-    {font-size:30px;
+    {font-size:40px;
+    font-style: italic;
     font-family: serif;
     text-align: center;
-    color:brown;}
+    color: #756158;
+    margin-top:0%;
+}
 a
     {color:#a68a7d;
     font-style:italic;}
@@ -29,12 +39,12 @@ header
     {background-color: bisque;}
 
 section
-    {background-color: olive;}
+    {background-color:  rgb(229, 217, 204) ;}
 
 .omne,
 .zkusenosti,
-.dovednosti
-        {background-color: burlywood;}
+.Dovednosti
+        {background-color: rgb(252, 245, 232);}
 
 a:hover {color:rgb(175, 92, 92)
         }
@@ -46,42 +56,91 @@ a:active {color:rgb(223, 223, 148)
         }
 
 section{
-         padding: 50px 15%;
-        }
-        body, html {
-            height: 100%;
-          }
-          
-          * {
-            box-sizing: border-box;
-          }
-          
-          .bg-image {
-            background-image: url("vodopád.jpg");
-          
-            filter: blur(8px);
-            -webkit-filter: blur(8px);
+            padding: 50px 15%;
+            overflow: auto;
+            }
+.foto-omne {
+    width: 200px ;
+    border-radius: 10% 10% 3% 10% ;
+    float: left;
+    margin: 0 30px 10px 0px;
+    
+}
+.fotokontakt{
+    width: 350px;
+    border-radius:10% 10% 10% 3%;
+    float:right;
+    margin-right: 10px;
+   
+}
+table{
+    border-spacing:0;
+    display: inline-block;
+    margin-left: 40px;
+}
+td {
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: 10px 0;
+}
+th {
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+.zamestnavatel {
+    text-align: center;
+    padding-left: 20px;
 
-            height: 100%;
-          
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-          }
+}
+.pozice {
+    text-align: left;
+    padding-left: 20px;
+}
 
-          .bg-text {
-            background-color: rgb(0,0,0); 
-            background-color: rgba(0,0,0, 0.4); 
-            color: white;
-            font-weight: bold;
-            border: 3px solid #f1f1f1;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 2;
-            width: 80%;
-            padding: 20px;
-            text-align: center;
-          }
+section {
+    padding: 50px 15%;
+}
 
+.paticka {
+    padding: 20px 0;
+    text-align: center;
+   font-size: 15px;
+   background-color:#756158 ;
+   margin: 0%;
+}
+.hlavicka {
+    background-image: url(Foto/UK.jpg);
+    padding:120px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.prace  {
+    margin: 10px 200px 30px 200px;
+}
+.ikony {
+    padding-right: 6px;
+}
+.Dovednosti {
+    text-align: center;
+}
+
+.menu {
+    margin: 0%;
+    padding:0%;
+    text-align: center;
+    background-color:#756158 ;
+
+    
+}
+.menu li {
+    display: inline-block;
+
+}
+.menu a {
+    display: inline-block;
+    color: rgb(252, 245, 232);
+    text-decoration: none;
+    padding: 20px 30px;
+    
+}
